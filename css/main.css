@@ -1,0 +1,68 @@
+/**
+main.css
+
+*/
+
+
+.top-detail {
+	height: 10px;
+	width: auto;
+	background-color: #0078a0;
+	margin-bottom: 10px;
+}
+
+nav .top-bar{
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.top-bar-section{
+
+}
+
+.content{
+	background-color: #ffffFF ;
+}
+
+.nav-seperator{
+	margin-top: 5px;
+	height: 20px;
+	background-color: #6b6b6b;
+}
+
+#welcome-bar {
+	background-color:#0078a0;
+	color: #ffffff;
+}
+
+#welcome-bar h2{
+	color: #ffffFF;
+}
+
+.footer {
+	background-color:#222222;
+	color: #ffffFF;
+
+}
+
+.footer h4{
+	color: #ffffFF;
+}
+
+.footer p{
+font-size: 12px;
+}
+
+@media only screen and (min-width: 40.063em) {
+.top-detail {
+	height:25px;
+	width: auto;
+	background-color: #0078a0;
+	margin-bottom: 10px;
+}
+#main-nav {
+	vertical-align: bottom;
+	position
+}
+
+}

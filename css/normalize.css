@@ -361,6 +361,7 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
+
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
  * Safari (but not Chrome) clips the cancel button when the search input has
@@ -425,3 +426,4 @@ td,
 th {
   padding: 0;
 }
+
