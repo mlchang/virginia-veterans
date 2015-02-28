@@ -1759,11 +1759,7 @@ meta.foundation-mq-topbar {
         width: 75%;
         display: block;
         padding: 0 0.9375rem; }
-  .top-bar .logo {
-      background-image: url('/img/vvcnoimagewhite.jpg');
-      height: 45px;
-      width: 286px;
-    }
+  
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
@@ -1828,7 +1824,7 @@ meta.foundation-mq-topbar {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #ffffff; }
+    background: #6b6b6b; }
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
@@ -2035,11 +2031,6 @@ meta.foundation-mq-topbar {
 
     }
 
-    .top-bar .logo {
-      background-image: url('/img/vvclogo_nonback.jpg');
-      height: 102px;
-      width: 191px;
-    }
 
     .top-bar input,
     .top-bar .button,

@@ -16,8 +16,22 @@ nav .top-bar{
 	margin-bottom:10px;
 }
 
-.top-bar-section{
+.logo{
+	margin-left: 5px;
+}
+.top-bar .logo {
+      background-image: url('/img/vvclogomini.jpg');
+      height: 45px;
+      width: 61px;
+    }
 
+
+.top-bar-section{
+	z-index: 1;
+}
+
+.top-bar-section .right {
+	top: 0;
 }
 
 .content{
@@ -30,7 +44,8 @@ nav .top-bar{
 	background-color: #6b6b6b;
 }
 
-#welcome-bar {
+
+#welcome-bar .panel{
 	background-color:#0078a0;
 	color: #ffffff;
 }
@@ -60,6 +75,16 @@ font-size: 12px;
 	background-color: #0078a0;
 	margin-bottom: 10px;
 }
+.top-bar ul.title-area {
+	height: 0px;
+}
+
+    .top-bar .logo {
+      background-image: url('/img/vvclogo2.jpg');
+      height: 102px;
+      width: 390px;
+    }
+
 #main-nav {
 	vertical-align: bottom;
 	position
