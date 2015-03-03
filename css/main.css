@@ -2,13 +2,24 @@
 main.css
 
 */
+body{
 
+}
+.contain-to-grid{
+}
+
+.main-content{
+	background-color: #6d6d6d;
+}
 
 .top-detail {
 	height: 10px;
 	width: auto;
 	background-color: #0078a0;
 	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 3px 3px #333333;
+	-moz-box-shadow: 0px 3px 3px #333333;
+	box-shadow: 0px 3px 3px #333333;
 }
 
 nav .top-bar{
@@ -20,7 +31,7 @@ nav .top-bar{
 	margin-left: 5px;
 }
 .top-bar .logo {
-      background-image: url('/img/vvclogomini.jpg');
+      background-image: url('/img/vvclogomini2.jpg');
       height: 45px;
       width: 61px;
     }
@@ -34,60 +45,171 @@ nav .top-bar{
 	top: 0;
 }
 
-.content{
-	background-color: #ffffFF ;
-}
 
 .nav-seperator{
-	margin-top: 5px;
+	margin-top: 0px;
 	height: 20px;
 	background-color: #6b6b6b;
 }
 
+#welcome-bar {
+	margin-top: 0px;
+}
 
 #welcome-bar .panel{
 	background-color:#0078a0;
 	color: #ffffff;
 }
 
-#welcome-bar h2{
+#welcome-bar h3{
 	color: #ffffFF;
+}
+
+#welcome-bar .panel {
+	border: none;
+	margin-bottom: 0px;
+}
+
+
+.row .panel {
+}
+
+.row .panel p{
+}
+
+.bottom-nav ul li{
+	display: inline-block;
+  margin: 0 5px;
+}
+
+.bottom-nav ul {
+	display: block;
+	width: 283px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 11px;
+}
+.footer-back {
+	background-color: #222222;
+	height: 180px;
 }
 
 .footer {
 	background-color:#222222;
 	color: #ffffFF;
-
+	text-align: center;	
+	padding-top: 20px;
 }
 
-.footer h4{
+.footer h6{
 	color: #ffffFF;
+	text-align: center;
+}
+
+.footer img{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .footer p{
-font-size: 12px;
+	font-size: 10px;
+	text-align: center;
+}
+
+.footer ul {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.footer ul li {
+	text-align: center;
 }
 
 @media only screen and (min-width: 40.063em) {
-.top-detail {
-	height:25px;
-	width: auto;
-	background-color: #0078a0;
-	margin-bottom: 10px;
-}
-.top-bar ul.title-area {
-	height: 0px;
+	.top-detail {
+		height:25px;
+		width: auto;
+		background-color: #0078a0;
+		margin-bottom: 10px;
+	}
+	.top-bar ul.title-area {
+		height: 0px;
+	}
+
+	    .top-bar .logo {
+	      background-image: url('/img/vvclogogbhd.jpg');
+	      height: 102px;
+	      width: 390px;
+	    }
+
+	#main-nav {
+		vertical-align: bottom;
+		position
+	}
+
+
+
+	.content-top{
+		height: 15px;
+		color: #6d6d6d;
+		margin-top: 15px;
+		-moz-border-radius: 10px 10px 0px 0;
+		-webkit-border-radius: 10px 10px 0px 0;
+		border-radius: 10px 10px 0px 0;
+		background-color: #6d6d6d;
+	}
+
+	#welcome-bar {
+		margin-top: 15px;
+	}
+
+	.nav-seperator{
+		margin-top: 30px;	
+	}
+
+	#slide-show {
+		margin-top: 5px;
+	}
+	.content-bottom{
+		height: 15px;
+		color: #6d6d6d;
+		margin-bottom: 20px;
+		-moz-border-radius: 0px 0px 10px 10px;
+		-webkit-border-radius: 0px 0px 10px 10px;
+		border-radius: 0px 0px 10px 10px;
+		background-color: #6d6d6d;
+	}
+
+	.bottom-nav ul {
+		display: block;
+		width: 388px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+
+	.bottom-nav ul li{
+		display: inline-block;
+	  	margin: 0 10px;
+	  	font-size: 16px;
+	}
+
+	.footer p{
+		font-size: 12px;
+		text-align: center;
+	}
+
+
+	#logo-bottom{
+		height: 100px;
+		background-color: blue;
+		width:135px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+	}
+
 }
 
-    .top-bar .logo {
-      background-image: url('/img/vvclogo2.jpg');
-      height: 102px;
-      width: 390px;
-    }
 
-#main-nav {
-	vertical-align: bottom;
-	position
-}
-
-}
