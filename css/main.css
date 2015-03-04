@@ -65,16 +65,14 @@ nav .top-bar{
 	color: #ffffFF;
 }
 
+#welcome-bar p {
+	color: #ffffff;
+	font-size: 12px;
+}
+
 #welcome-bar .panel {
 	border: none;
 	margin-bottom: 0px;
-}
-
-
-.row .panel {
-}
-
-.row .panel p{
 }
 
 .bottom-nav ul li{
@@ -90,12 +88,12 @@ nav .top-bar{
 	font-size: 11px;
 }
 .footer-back {
-	background-color: #222222;
+	background-color: #6d6d6d;
 	height: 180px;
 }
 
 .footer {
-	background-color:#222222;
+	background-color:#6d6d6d;
 	color: #ffffFF;
 	text-align: center;	
 	padding-top: 20px;
@@ -162,6 +160,7 @@ nav .top-bar{
 
 	#welcome-bar {
 		margin-top: 15px;
+		margin-bottom:15px;
 	}
 
 	.nav-seperator{
@@ -169,7 +168,7 @@ nav .top-bar{
 	}
 
 	#slide-show {
-		margin-top: 5px;
+		padding-top: 20px;
 	}
 	.content-bottom{
 		height: 15px;

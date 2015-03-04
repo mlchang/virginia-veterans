@@ -52,7 +52,7 @@
         		<div class="row">
              	 <div class="large-9 small-9 columns">
 
-                	<h3> Contact Us</h3>
+                	<h3>Contact Us</h3>
             	 </div>
              	 <div class="large-3 small-3 columns">
                		 <p> "Serving you for serving us." </p>
@@ -78,21 +78,21 @@
 		<div class="row">
 
 			<h5>Contact:</h5>
-      		<form>
+      		<form action="MAILTO:mrchang@vt.edu" method="post" enctype="text/plain">
 				
 				<div class="row">
 				 	<div class="large-4 medium-4 columns">
 					    <label>First Name</label>
-					    <input type="text" placeholder=" First" />
+					    <input type="text" name="first" value="first name"placeholder=" First" />
 					</div>
 					<div class="large-4 medium-4 columns">
 					    <label>Last Name</label>
-					    <input type="text" placeholder="Last" />
+					    <input type="text" placeholder="Last" name="last" value="last name"/>
 					</div>
 					<div class="large-4 medium-4 columns">
 					    <div class="row collapse">
 					        <label>Number</label>
-					        <input type="text" placeholder="(555)-555-5555"/>
+					        <input type="text" placeholder="(555)-555-5555" name="numnber" value="phone number"/>
 					    </div>
 					</div>
 				</div>
@@ -100,6 +100,7 @@
 					<div class="large-12 columns">
 					    <label>Address</label>
 					    <input type="text" placeholder="123 Market St. , Virginia Beach, VA" />
+					    
 					</div>
 				</div>
 				<!--
@@ -115,9 +116,10 @@
 					</div>
 				</div> -->
 				<div class="row">
-					<div class="large-12 columns">
+					<div class="large-6 columns">
 					    <label>Comment, Question or Order</label>
-					    <textarea height="100px" placeholder=""></textarea>
+					    <textarea rows="9" placeholder=""></textarea>
+					    <input type="submit" value="Send">
 					</div>
 				 </div>
 			</form>
@@ -141,14 +143,13 @@
         <div class="footer-back">
         <div class="footer row">
           <div class="large-4 medium-4 small-12 columns">
-                <p>Follow Us!</p>
-                <ul>
-                  <li>facebook</li>
-                  <li>twitter</li>
-                  <li>pintrest</li>
-                  <li>instagram</li>
-                </ul>
-                  
+            <div id="social-media" class="row">
+                    <a><img src="img/icons/facebook_40.jpg"/></a>
+                    <a><img src="img/icons/twitter_40.jpg"/></a>
+                    <a><img src="img/icons/google_40.jpg"/></a>
+                    <a><img src="img/icons/pintrest_40.jpg"/></a>
+                 
+            </div>
             </div>
             <div class="large-4 medium-4 small-6 columns">
               <div id="logo-bottom">
